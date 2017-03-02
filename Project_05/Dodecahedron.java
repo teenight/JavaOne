@@ -2,9 +2,9 @@ import java.text.DecimalFormat;
 /**
  * The information about dodecahedron.
  *
- * Project_04.
+ * Project_05.
  * @author Zejian Zhong - COMP 1210 - 008
- * @version 2/12/2017
+ * @version 2/26/2017
  */
 public class Dodecahedron {
 /**
