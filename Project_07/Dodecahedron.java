@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
  *
  * Project_07.
  * @author Zejian Zhong - COMP 1210 - 008
- * @version 3/25/2017
+ * @version 3/26/2017
  */
 public class Dodecahedron {
 /**
@@ -31,12 +31,12 @@ public class Dodecahedron {
     * @return true if applied, otherwise false.
     */
    public boolean setLabel(String labelIn) {
-      if (labelIn != null) {
-         label = labelIn.trim();
-         return true;
+      if (labelIn == null) {
+         return false;
       }
       else {
-         return false;
+         label = labelIn.trim();
+         return true;
       }
    }
    /**
@@ -44,12 +44,12 @@ public class Dodecahedron {
     * @return true if applied, otherwise false.
     */
    public boolean setColor(String colorIn) {
-      if (colorIn != null) {
-         color = colorIn.trim();
-         return true;
+      if (colorIn == null) {
+         return false;
       }
       else {
-         return false;
+         color = colorIn.trim();
+         return true;
       }
    }
    /**
@@ -57,12 +57,12 @@ public class Dodecahedron {
     * @return true if appled, otherwise false.
     */   
    public boolean setEdge(double edgeIn) {
-      if (edgeIn > 0) {
-         edge = edgeIn;
-         return true;
+      if (edgeIn <= 0) {
+         return false;
       }
       else {
-         return false;
+         edge = edgeIn;
+         return true;
       }
    }
    /**
