@@ -3,7 +3,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-/** Test class for Dodecahedron. */
+/** Test class for Dodecahedron. **/
 public class DodecahedronTest {
 
    /** Fixture initialization (common initialization
