@@ -1,4 +1,4 @@
 # COMP1210
 <br />
-Code storage for activites&projects in class COMP1210.
+Code storage for activities&projects in class COMP1210(Fundamentals Of Computing I).
 <br />
